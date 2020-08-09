@@ -159,6 +159,18 @@ nav a {
   padding: 17px 17px 17px 17px;
 }
 
+.first-name {
+  width: 48%;
+  display: inline-block;
+  order: 0;
+}
+
+.last-name {
+  width: 48%;
+  display: inline-block;
+  order: 1;
+}
+
 input[type=text], select, textarea, [type=email] {
   width: 100%;
   padding: 12px;

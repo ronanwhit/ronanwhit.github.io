@@ -34,19 +34,24 @@
   <p class="contact-p">Please fill in the form below to send an email to Emi See, or send a message directly to <a class="contact-a" target="_blank" href="mailto: emi.bliss.see@gmail.com">emi.bliss.see@gmail.com</a></p>
 
   <form action="action_page.php" class="contact-form">
+    
+    <fieldset class="box" style="border-style: none;">
+      <div class="first-name">
+        <label for="fname">First Name *</label>
+        <input type="text" id="fname" name="firstname" x-autocompletetype="surname" aria-required="true" placeholder="Your name..">
+      </div>
 
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      <div class="last-name">
+        <label for="lname">Last Name *</label>
+        <input type="text" id="lname" name="lastname" x-autocompletetype="given-name" aria-required="true" placeholder="Your last name..">
+      </div>
+    </fieldset>
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <label for="email" typoe="email">Email *</label>
+    <input type="email" id="email" name="email" x-autocomplete="email" aria-required="true" placeholder="Your email..">
 
-    <label for="email" typoe="email">Email</label>
-    <input type="email" id="email" name="email" placeholder="Your email..">
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px">
-    </textarea>
+    <label for="message">Message *</label>
+    <textarea id="message" name="message" aria-required="true" placeholder="Write something.." style="height:200px; min-height: 100px; font-family: 'Open Sans', sans-serif"></textarea>
 
     <input type="submit" value="Submit">
 
