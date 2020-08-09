@@ -131,7 +131,35 @@ nav a {
 }
 
 /*Contact Page */
-input[type=text], select, textarea {
+#contact-h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: normal; 
+  padding: 15px
+}
+
+.contact-p {
+  text-align: center;
+}
+
+.contact-a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact-a:hover {
+  color: var(--oily-steel)
+}
+
+.contact-form {
+  display: block;
+  margin: auto;
+  max-width: 960px;
+  height: auto;
+  padding: 17px 17px 17px 17px;
+}
+
+input[type=text], select, textarea, [type=email] {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -158,8 +186,8 @@ input[type=submit]:hover {
 .contact {
   display: block;
   margin: 0 auto 0 auto;
-  max-width: 960px;
-  border: 1px solid black;
+  padding: 70px 50px;
+  box-sizing: border-box;
 }
 
 
