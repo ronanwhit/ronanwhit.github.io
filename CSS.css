@@ -143,7 +143,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: var(--oily-steel);
+  background-color: var(--carbon);
   color: white;
   padding: 12px 20px;
   border: none;
@@ -152,7 +152,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: var(--oily-steel);
 }
 
 .contact {
