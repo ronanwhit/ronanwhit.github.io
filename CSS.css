@@ -131,6 +131,15 @@ nav a {
 }
 
 /*Contact Page */
+
+.contact-box {
+  display: flex;
+  flex-wrap: row;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
 #contact-h1 {
   text-align: center;
   font-size: 24px;
@@ -161,14 +170,11 @@ nav a {
 
 .first-name {
   width: 48%;
-  display: inline-block;
-  order: 0;
+  margin: 0 0 0 0;
 }
 
 .last-name {
   width: 48%;
-  display: inline-block;
-  order: 1;
 }
 
 input[type=text], select, textarea, [type=email] {
